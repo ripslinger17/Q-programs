@@ -8,7 +8,7 @@ Now, the identity gate is like a special instruction for the magic box. But this
 So, if the ball was red before, it's still red after the identity gate. If it was blue, it's still blue. The identity gate doesn't change the ball's color at all. It's like a magical do-nothing command.
 
 In quantum computing, we use the identity gate for different reasons, like making sure our quantum information doesn't get messed up while we're doing other operations. Even though it might seem like it's not doing anything, it plays an important role in keeping our quantum computations reliable and accurate.
-<img title = "Identity Gate" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/e219040ddfed5b96c79d0b24bc976aeba218991b">
+<img title = "Identity Gate" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/e219040ddfed5b96c79d0b24bc976aeba218991b"> <img title = "Identity Gate" src = "https://pennylane.ai/static/b0a91dc589157220d1572008b55f689b/2a195/identity-gate-symbol.png">
 
 ---
 
@@ -26,7 +26,7 @@ So, if you had a qubit in the 'up' state and you apply the Pauli X gate, it beco
 4. **Quantum Algorithms**
 5. **Quantum Circuits**
 6. **Quantum Key Distribution**
-<img title = "Pauli X/NOT Gate" src = "https://wikimedia.org/api/rest_v1/media/math/render/svg/0d745eb40be91cedbb78ee74cd78f732f255d4e8">
+<img title = "Pauli X/NOT Gate" src = "https://wikimedia.org/api/rest_v1/media/math/render/svg/0d745eb40be91cedbb78ee74cd78f732f255d4e8"> <img title = "PauliX/NOT Gate" src = "https://upload.wikimedia.org/wikipedia/commons/4/43/Qcircuit_X.svg">
 
 ---
 
@@ -44,7 +44,7 @@ The Pauli Y gate is a fundamental quantum gate that, similar to the Pauli X gate
 4. **Quantum Algorithms**
 5. **Quantum Cryptography**
 6. **Quantum Phase Estimation**
-<img title= "Pauli Y Gate" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/01dae26e885ebbee9aa17740b7788dd5af595e75">
+<img title= "Pauli Y Gate" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/01dae26e885ebbee9aa17740b7788dd5af595e75"> <img title = "Pauli Y" src = "https://upload.wikimedia.org/wikipedia/commons/7/79/Qcircuit_Y.svg">
 
 ---
 
@@ -67,6 +67,52 @@ It is also known as the phase flip gate
 4. **Quantum teleportation**
 5. **Quantum cryptography**
 6. **Quantum simulation**
-<img title = "Pauli Z Gate/Phase Flip Gate" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/d6b765eb972472c14f2060feebeb0e7ec1e3313e">
+<img title = "Pauli Z Gate/Phase Flip Gate" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/d6b765eb972472c14f2060feebeb0e7ec1e3313e"> <img title = "Pauli Z" src = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAS4AAABwCAMAAACXbW1CAAAAb1BMVEX///8AAAC/v78/Pz+Tk5PFxcV/f38kJCQICAj5+fn29vbv7+8NDQ0YGBidnZ2goKBmZmZtbW0VFRXl5eWoqKixsbE4ODh4eHhFRUW3t7dTU1NNTU3Nzc3T09Pf39+MjIxgYGAdHR1zc3Pp6eksLCzTTAB9AAADFElEQVR4nO2d7XKCMBBFiYiggNVqFa2C2r7/M1YStFPyxY4ytN17fkaXyhkMlw3UIAAAAAAAAAAAAAZmmojeSKZD793T2fZnS4jt0Hv3dCIh4rAXYiGioffu6Vx1jfvZ8hi6KEAXCegiAV0koIsEdJGALhLQRQK6SEAXCegiAV0koIsEdJGALhLQRQK6SDDWFRXOPvPJVMNYV+hewvg01fDVld68nItLNX8b3Zmr4Z2piK+uFykl365a4x+xfOHFWMRX176WstQWWWcbaWtiLuKrK7tKedOH36Wtk6WIra6deXpaSFuFrYqtrqVxeppIW5uZrYqtrly864Nq+o9TaxVXXQeRfGiDO2nrtbSXcdU1EUtt7FDP/iI7Osq46toI7RgqX+XBNXKVMdW10k9+qYqna2cdU11jMW+NNPG08tWx1LVI2mc/FU/1Ce0nTHWt2qdFFU/3vi0z1dVGxdPQe5sudNWsVYfLHk9vQNeVkbyxPNdzqwZ0BcHRH09vQFdQ5rWt5NDlvYPpSkf9MaboauKpofVloN5yjx/cPnnmvqcjHmPR1VYTT9up1cKi30+dD6XLlzfvqHja9cmVnnXF1j/8S76Mav9PHd893JexT7pP9ZW0Ze01a/A+Mzbx1Npr1mCtS8VTR69Zg7MuFU/bvebIlcAY61rJk3PWlnMRjnjPV1cTT7Ve8/nsKGKra6riqbbWGImLo4qtLnmLhKHXvHT64KpLxVP9UmmW2S9EAra6VDw1rGOP3VebPHWpeGq6FeKMdUYNezydiMy5ZY66VDzN27cNXikTcXJumaGuJp4awmj66WsT8tNVOxEiMez1NPT+ixt2upp4ajiIyvoVz8IsO10qnuovzyo5/7vvKGGnayltadc5x0rdrSQ8rS9mulQ8zSbfbBf7Ir43yw3B9Qe8dM18awvmhw++4aUrdT81FRa+xiovXQ8DXSSgiwR0kYAuEtBFArpIQBcJ6CIBXSSgiwR0kYAuEtBFArpIQBcJ6CIBXST+qy78eER31r4VjEfwrET+QfDDNwAAAAAAAAAA/jdf1kwh1iCVMfYAAAAASUVORK5CYII=">
 
 ---
+
+# Controlled NOT (CNOT)
+The CNOT gate operates on these two qubits. The term "Controlled NOT" gives a clue about what it does:
+
+* **Control and Target Qubits:** In the CNOT gate, one qubit is the control qubit, and the other is the target qubit. Think of the control qubit as the boss and the target qubit as the employee.
+
+* **Conditionality:** The CNOT gate works like this: If the control qubit is in state \(|1\rangle\) and you apply the CNOT gate, it flips the state of the target qubit. So, if the target qubit was \(|0\rangle\) (off), it becomes \(|1\rangle\) (on), and if it was \(|1\rangle\) (on), it becomes \(|0\rangle\) (off).
+
+In a way, you can think of the CNOT gate as saying, "If the control qubit is true, switch the state of the target qubit." If the control qubit is false (\(|0\rangle\)), the target qubit remains unchanged.
+
+**Imagine a Light Switch and a Bulb:**
+- The control qubit is like the light switch on the wall.
+- The target qubit is like the light bulb controlled by the switch.
+
+If the switch is on (\(|1\rangle\)), applying the CNOT gate is like toggling the light bulb: if the light was on, it turns off, and if it was off, it turns on. If the switch is off (\(|0\rangle\)), the light bulb's state doesn't change.
+
+This gate is essential because it allows for the creation of quantum entanglement and is a building block for many quantum algorithms, including quantum error correction codes and quantum teleportation. It's a powerful tool in quantum computation, allowing for complex operations and calculations that classical computers can't perform efficiently.
+<img title = "CNOT" src = "https://wikimedia.org/api/rest_v1/media/math/render/svg/8d7628eecddb4a570d6c5f12fc68c0b5d4f0cd2e"> <img title = "CNOT Gate" src = "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/CNOT_gate.svg/1280px-CNOT_gate.svg.png">
+
+---
+
+## Phase Shift Gate
+In quantum computing, the Phase Shift Gate, often denoted as \( R(\theta) \), is a fundamental single-qubit quantum gate. It's named "Phase Shift" because it essentially adds a specific phase angle \( \theta \) to the quantum state of the qubit. Here's a bit more technical explanation:
+
+* **Phase in Quantum States:** Quantum particles, like qubits, can exist in multiple states simultaneously, a concept known as superposition. These states are represented by probability amplitudes, which are complex numbers. The phase of these complex numbers is crucial because it affects the behavior of quantum interference, a fundamental property of quantum systems.
+
+* **What the Phase Shift Gate Does:** When you apply the Phase Shift Gate \( R(\theta) \) to a qubit, it modifies the probability amplitudes of its states. Specifically, it multiplies the state \( |1\rangle \) by the complex number \( e^{i\theta} \) while leaving the state \( |0\rangle \) unchanged. This multiplication results in a phase shift of \( \theta \) radians applied to the state \( |1\rangle \).
+
+* **Quantum Interference and Computations:** The ability to manipulate the phase of qubits is vital in quantum algorithms. Quantum interference relies on the relative phases of different quantum states. By adjusting these phases using gates like \( R(\theta) \), quantum algorithms can enhance constructive interference (where probabilities align, increasing the chance of a correct answer) or introduce destructive interference (where probabilities cancel out, reducing the chance of an incorrect answer). This fine-tuning of interference patterns is what makes quantum algorithms powerful for specific computational tasks.
+
+* **Visualization:** You can visualize the Phase Shift Gate as a rotation in the complex plane. If you think of the probability amplitudes as vectors in a two-dimensional space (with the real part on one axis and the imaginary part on the other), applying the Phase Shift Gate rotates these vectors around the origin by an angle \( \theta \). This rotation alters the interference pattern when these vectors combine with other quantum states in a quantum computation.
+
+In essence, the Phase Shift Gate provides quantum computers with the ability to control the phase of quantum states, enabling sophisticated interference patterns that underpin the power of quantum algorithms.
+
+**Uses**
+1. **Quantum Algorithms:**
+2. **Quantum Error Correction:**
+3. **Quantum Communication:**
+4. **Quantum Teleportation:**
+5. **Quantum Cryptography:**
+6. **Quantum Fourier Transform:**
+7. **Quantum Phase Estimation:**
+<img title = "Phase Shift Gate" src= "https://wikimedia.org/api/rest_v1/media/math/render/svg/1e7fab3c0ed23553ddea581803346b641589ac06"> <img title = "Phase Shift Gate" src= "https://upload.wikimedia.org/wikipedia/commons/f/f6/Phase_shift_gate.png">
+
+---
+
