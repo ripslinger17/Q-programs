@@ -71,7 +71,7 @@ It is also known as the phase flip gate
 
 ---
 
-# Controlled NOT (CNOT)
+## Controlled NOT (CNOT)
 The CNOT gate operates on these two qubits. The term "Controlled NOT" gives a clue about what it does:
 
 * **Control and Target Qubits:** In the CNOT gate, one qubit is the control qubit, and the other is the target qubit. Think of the control qubit as the boss and the target qubit as the employee.
@@ -105,14 +105,91 @@ In quantum computing, the Phase Shift Gate, often denoted as \( R(\theta) \), is
 In essence, the Phase Shift Gate provides quantum computers with the ability to control the phase of quantum states, enabling sophisticated interference patterns that underpin the power of quantum algorithms.
 
 **Uses**
-1. **Quantum Algorithms:**
-2. **Quantum Error Correction:**
-3. **Quantum Communication:**
-4. **Quantum Teleportation:**
-5. **Quantum Cryptography:**
-6. **Quantum Fourier Transform:**
-7. **Quantum Phase Estimation:**
+1. **Quantum Algorithms**
+2. **Quantum Error Correction**
+3. **Quantum Communication**
+4. **Quantum Teleportation**
+5. **Quantum Cryptography**
+6. **Quantum Fourier Transform**
+7. **Quantum Phase Estimation**
 <img title = "Phase Shift Gate" src= "https://wikimedia.org/api/rest_v1/media/math/render/svg/1e7fab3c0ed23553ddea581803346b641589ac06"> <img title = "Phase Shift Gate" src= "https://upload.wikimedia.org/wikipedia/commons/f/f6/Phase_shift_gate.png">
 
 ---
 
+## Hadamard Gate
+
+Imagine you have a magical coin. But unlike a regular coin that can only be heads or tails, this magical coin can be both at the same time! It can exist in a state where it's a little bit heads and a little bit tails simultaneously. This special state is what we call a "superposition."
+
+Now, the Hadamard gate is like a magic trick for this coin. When you apply the Hadamard gate to your magical coin, it flips the coin and spins it at the same time. It's as if you tossed the coin in the air, and for a moment, it's both heads and tails while it's spinning. 
+
+Mathematically, if the coin starts as heads (\(|0\rangle\)), the Hadamard gate turns it into a superposition of heads and tails (\(\frac{1}{\sqrt{2}}(|0\rangle + |1\rangle)\)). If it starts as tails (\(|1\rangle\)), the Hadamard gate turns it into a different superposition (\(\frac{1}{\sqrt{2}}(|0\rangle - |1\rangle)\)).
+
+In a way, the Hadamard gate creates uncertainty in a controlled manner. It prepares the magical coin in a state where, when you measure it, it has an equal chance of being heads or tails. This property is fundamental in quantum computing and allows quantum computers to explore multiple possibilities at the same time.
+
+**Uses**
+1. **Creating Superpositions**
+2. **Quantum Coin Flipping**
+3. **Quantum Key Distribution**
+4. **Amplitude Amplification**
+5. **Quantum Fourier Transform**
+6. **Random Number Generation**
+7. **Error Correction**
+<img title = "Hadamard Gate" src = "https://wikimedia.org/api/rest_v1/media/math/render/svg/72eec613db5aede0264dedc3fb84cdda4b2ceabc">
+<img title = "Hadamard Gate" src = "https://upload.wikimedia.org/wikipedia/commons/1/1a/Hadamard_gate.svg">
+
+---
+
+## Swap Gate
+Imagine you have two boxes, A and B. Each box contains a ball, but you don't know the color of the balls inside. Now, you want to swap the balls between the boxes without looking at their colors.
+
+In classical computing, you'd need a temporary third box to perform this swap. You'd put the ball from box A into the temporary box, then put the ball from box B into box A, and finally, put the ball from the temporary box into box B.
+
+Now, in quantum computing, the Swap Gate does something similar, but in a quantum way. Instead of dealing with classical bits like 0s and 1s, quantum bits (qubits) can exist in multiple states at the same time due to superposition. A Swap Gate lets you exchange the states of two qubits without disturbing these states or even looking at them!
+
+Mathematically, if you have two qubits \(|\psi\rangle\) and \(|\phi\rangle\), a Swap Gate transforms their states like this: 
+
+\[ \text{Swap}(|\psi\rangle \otimes |\phi\rangle) = |\phi\rangle \otimes |\psi\rangle \]
+
+In simpler terms, the Swap Gate switches the quantum information between the qubits. If \(|\psi\rangle\) was a superposition of different states, and \(|\phi\rangle\) was in a specific state, after the Swap Gate, \(|\phi\rangle\) becomes the superposition, and \(|\psi\rangle\) takes on the specific state.
+
+This ability to swap quantum information is crucial in various quantum algorithms and protocols, such as certain types of quantum sorting algorithms and quantum communication tasks.
+
+**Uses**
+1. **Quantum Data Sorting**
+2. **Quantum Permutation Testing**
+3. **Quantum Error Correction**
+4. **Quantum Communication**
+5. **Quantum Entanglement**
+6. **Quantum Circuit Optimization**
+7. **Quantum Algorithm Design**
+<img title = "Swap Gate" src = "https://wikimedia.org/api/rest_v1/media/math/render/svg/471587670c031419c2374fccbbcccdcfa42a7dfe">
+<img title = "Swap Gate" src = "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Swap_gate.svg/360px-Swap_gate.svg.png">
+
+---
+
+## Toffoli Gate
+*It is also known as CCNOT Controlled-Controlled NOT*
+
+Imagine you have three light switches: A, B, and C. The Toffoli gate is like a special switch that can control the third switch (C) based on the positions of the first two switches (A and B).
+
+Here's how it works:
+
+1. If both A and B are ON, the Toffoli gate will flip the state of C. So, if C was OFF, it becomes ON, and if C was ON, it becomes OFF.
+
+2. If either A or B (or both) are OFF, the state of C remains unchanged.
+
+In other words, the Toffoli gate only changes the state of C when both A and B are ON.
+
+This behavior is really useful in computing because it allows us to create logic circuits that make decisions based on the states of two input bits (A and B). The Toffoli gate acts like a controlled switch, turning another switch (C) on or off based on the conditions of the first two switches.
+
+**Uses**
+The Toffoli gate, also known as the Controlled-Controlled-Not (CCNOT) gate, is a versatile quantum gate with several important uses in quantum computing:
+
+1. **Quantum Circuits and Computations**
+2. **Quantum Error Correction**
+3. **Quantum Logic Gates**
+4. **Classical Computations**
+5. **Quantum Arithmetic**
+6. **Quantum Communication Protocols**
+<img title = "Toffoli Gate" src = "https://wikimedia.org/api/rest_v1/media/math/render/svg/70d00c695dd6889b6a71c6aad344f7a13a409c64">
+<img title = "Toffoli Gate" src = "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Toffoli_gate.svg/360px-Toffoli_gate.svg.png">
