@@ -19,3 +19,5 @@ Basic Quantum Gates [Quantum Gates](https://github.com/ripslinger17/Q-programs/b
 
 ---
 
+## Practice
+Practice Programs (Not So Important! You can Ignore it) [Practice](https://github.com/ripslinger17/Q-programs/tree/main/Practice)
